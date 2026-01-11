@@ -21,3 +21,16 @@ Tujuan dari eksperimen ini adalah:
 
 ## 📁 Struktur Folder
 
+goemotions/
+├── notebooks/ -> Notebook eksperimen dan pelatihan model
+├── reports/ -> Laporan dan ringkasan hasil eksperimen
+└── requirements.txt -> Daftar dependensi Python
+
+
+---
+
+## 📌 Catatan
+
+Seluruh proses eksperimen dilakukan menggunakan Jupyter Notebook
+dan dapat dijalankan kembali menggunakan dependensi yang tercantum
+pada file `requirements.txt`.
