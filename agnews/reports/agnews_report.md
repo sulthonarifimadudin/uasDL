@@ -38,7 +38,8 @@ akurasi dan F1-score yang tinggi dan relatif stabil di setiap epoch.
 Setelah proses pelatihan selesai, model dievaluasi menggunakan data uji.
 Hasil evaluasi akhir ditunjukkan pada gambar berikut.
 
-![Hasil evaluasi akhir model AG News](images/agnews_evaluation.png)
+![Hasil evaluasi akhir model AG News](agnews_evaluation.png)
+
 
 Model mencapai nilai akurasi dan F1-score sekitar 94,5%, yang menunjukkan
 bahwa model memiliki performa yang baik dalam mengklasifikasikan topik berita.
@@ -51,7 +52,8 @@ Selama proses pelatihan, model disimpan secara berkala dalam bentuk checkpoint.
 Checkpoint ini berguna untuk melakukan penyimpanan model dan memungkinkan
 pelatihan dilanjutkan kembali jika diperlukan.
 
-![Checkpoint model selama training](images/agnews_checkpoint.png)
+![Checkpoint model selama training](agnews_checkpoint.png)
+
 
 ---
 
@@ -61,7 +63,8 @@ Model yang telah dilatih kemudian digunakan untuk melakukan inferensi
 atau prediksi terhadap contoh teks berita. Proses inferensi dilakukan
 menggunakan GPU untuk mempercepat komputasi.
 
-![Hasil inferensi model AG News](images/agnews_inference.png)
+![Hasil inferensi model AG News](agnews_inference.png)
+
 
 Hasil inferensi menunjukkan bahwa model mampu memprediksi kelas berita
 dengan tingkat kepercayaan yang sangat tinggi.
