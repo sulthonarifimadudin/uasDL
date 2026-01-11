@@ -1,12 +1,23 @@
-# GoEmotions – Deep Learning Experiment
+# Eksperimen GoEmotions
 
-This experiment focuses on multi-label emotion classification using
-the GoEmotions dataset.
+Folder ini berisi eksperimen Deep Learning untuk tugas klasifikasi emosi
+menggunakan dataset **GoEmotions**.
 
-## Structure
-- notebooks/ : Model training and evaluation
-- reports/   : Experiment report and analysis
-- requirements.txt : Python dependencies
+Eksperimen ini bertujuan untuk memahami bagaimana model Deep Learning,
+khususnya model berbasis Transformer, dapat digunakan untuk
+klasifikasi teks multi-label.
 
-## Task
-Multi-label text classification using deep learning models.
+---
+
+## 🎯 Tujuan Eksperimen
+
+Tujuan dari eksperimen ini adalah:
+- Melakukan klasifikasi emosi dari teks
+- Menggunakan dataset GoEmotions sebagai data latih dan uji
+- Menerapkan model Deep Learning berbasis Transformer
+- Mengevaluasi performa model menggunakan metrik evaluasi yang sesuai
+
+---
+
+## 📁 Struktur Folder
+
