@@ -26,7 +26,7 @@ Gambar berikut menunjukkan proses pelatihan dan validasi model selama
 10 epoch. Pada setiap epoch dicatat nilai training loss, validation loss,
 accuracy, recall, dan F1-score.
 
-![Proses training dan validasi model AG News](images/agnews_training.png)
+![Proses training dan validasi model AG News](agnews_training.png)
 
 Berdasarkan hasil pelatihan, terlihat bahwa model mampu mencapai nilai
 akurasi dan F1-score yang tinggi dan relatif stabil di setiap epoch.
