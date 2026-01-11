@@ -1,16 +1,29 @@
 # UAS Deep Learning
 
-This repository contains Deep Learning experiments conducted as part of
-the Final Exam (UAS) for the Deep Learning course.
+Repository ini dibuat untuk memenuhi tugas **Ujian Akhir Semester (UAS)**
+mata kuliah **Deep Learning**.
 
-Each experiment is organized into its own folder and includes:
-- Jupyter notebooks
-- Reports
-- Dependency specifications
+Repository ini berisi beberapa eksperimen Deep Learning yang dikerjakan
+secara terpisah, di mana setiap eksperimen memiliki struktur folder sendiri
+yang mencakup notebook, laporan, dan dependensi yang digunakan.
 
-## Experiments Included
+Seluruh eksperimen disusun secara modular agar mudah dipahami, dievaluasi,
+dan dikembangkan lebih lanjut.
 
-- GoEmotions: Emotion classification using transformer-based models
-- AG News: News topic classification using deep learning models
+---
 
-Each experiment follows a standardized repository structure.
+## 🎯 Tujuan Repository
+
+Tujuan utama dari repository ini adalah:
+- Menerapkan konsep Deep Learning pada permasalahan nyata
+- Mengimplementasikan model Deep Learning menggunakan Python
+- Melatih dan mengevaluasi model menggunakan dataset publik
+- Menyusun eksperimen secara rapi dan terstruktur sesuai standar akademik
+
+---
+
+## 📁 Struktur Repository
+
+Setiap eksperimen berada dalam satu folder terpisah dan memiliki struktur
+minimum sebagai berikut:
+
