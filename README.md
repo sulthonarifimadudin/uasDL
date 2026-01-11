@@ -99,7 +99,7 @@ antara lain:
 ## 👥 Anggota Kelompok
 
 - **Abyan Rizki Arianto** — NIM: 1103220002  
-- **Ihan Nur Mardatillah** — NIM: 1103223129  
+- **JIhan Nur Mardatillah** — NIM: 1103223129  
 - **Sulthon Arif Imadudin** — NIM: 1103223206  
 
 ---
