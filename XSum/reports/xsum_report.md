@@ -7,77 +7,70 @@ model Deep Learning untuk tugas **Text Summarization** menggunakan
 dataset **XSum**.
 
 Text summarization bertujuan untuk menghasilkan ringkasan singkat
-yang tetap mempertahankan informasi penting dari teks asli.
+yang tetap mempertahankan informasi penting dari teks berita asli.
 
 ---
 
 ## 2. Dataset XSum
 
 Dataset XSum dimuat menggunakan library HuggingFace Datasets.
-Dataset ini terdiri dari teks artikel berita dan ringkasan singkat
-yang bersifat abstractive.
+Dataset ini terdiri dari teks artikel berita (*document*) dan ringkasan
+singkat (*summary*) yang bersifat abstractive.
 
 ![Pemuatan dataset XSum](xsum_dataset.png)
 
-Dataset dibagi menjadi data latih dan data validasi
-untuk mendukung proses pelatihan model.
+Dataset dibagi menjadi data latih dan data validasi untuk mendukung
+proses pelatihan dan pemantauan performa model.
 
 ---
 
 ## 3. Tokenisasi dan Encoding
 
-Sebelum dilakukan pelatihan model, teks artikel pada dataset XSum
+Sebelum digunakan dalam pelatihan model, teks artikel pada dataset XSum
 melalui proses tokenisasi menggunakan tokenizer dari model Transformer.
+Pada tahap ini juga dilakukan penyesuaian panjang sekuens agar sesuai
+dengan batas maksimum model.
 
-![Tokenisasi dataset XSum](xsum_tokenization.png)
+![Tokenisasi dan encoding dataset XSum](xsum_tokenization.png)
 
-Tokenisasi bertujuan untuk mengubah teks menjadi representasi numerik
-yang dapat diproses oleh model Deep Learning.
-
----
-
-## 4. Model Deep Learning
-
-Model yang digunakan dalam eksperimen ini adalah model Transformer
-berbasis BART atau T5 yang dirancang khusus untuk tugas text
-summarization.
-
-![Inisialisasi model Transformer untuk XSum](xsum_model.png)
-
-Model diinisialisasi dari pretrained model sebelum dilakukan pelatihan.
+Proses tokenisasi mengubah teks menjadi representasi numerik berupa
+`input_ids` dan `attention_mask` yang dapat diproses oleh model
+Deep Learning.
 
 ---
 
-## 5. Proses Pelatihan Model
+## 4. Proses Pelatihan Model
 
-Gambar berikut menunjukkan proses pelatihan model XSum selama beberapa
-epoch. Selama pelatihan, nilai training loss dan validation loss
-dipantau sebagai indikator proses pembelajaran model.
+Gambar berikut menunjukkan proses pelatihan model XSum selama satu epoch.
+Selama proses pelatihan, nilai training loss dicatat sebagai indikator
+pembelajaran model.
 
 ![Proses pelatihan model XSum](xsum_training.png)
 
-Penurunan nilai loss menunjukkan bahwa model mampu mempelajari pola
-perangkum teks dengan baik.
+Nilai loss yang tercatat menunjukkan bahwa model mulai mempelajari pola
+perangkum teks dari data latih.
 
 ---
 
-## 6. Inferensi Model
+## 5. Inferensi Model
 
-Setelah proses pelatihan selesai, model digunakan untuk menghasilkan
-ringkasan teks dari artikel yang diberikan.
+Setelah proses pelatihan selesai, model digunakan untuk melakukan
+inferensi atau menghasilkan ringkasan teks dari artikel berita.
+Hasil inferensi dibandingkan dengan ringkasan asli untuk melihat
+kemampuan model dalam menghasilkan ringkasan.
 
 ![Hasil inferensi model XSum](xsum_inference.png)
 
 Hasil inferensi menunjukkan bahwa model mampu menghasilkan ringkasan
-teks yang lebih singkat namun tetap relevan dengan isi artikel.
+yang lebih singkat dan relevan terhadap isi teks.
 
 ---
 
-## 7. Kesimpulan
+## 6. Kesimpulan
 
 Berdasarkan hasil eksperimen, dapat disimpulkan bahwa model Deep Learning
 berbasis Transformer mampu digunakan untuk tugas text summarization
 menggunakan dataset XSum.
 
-Eksperimen ini menunjukkan bahwa pendekatan Deep Learning efektif
-dalam menghasilkan ringkasan teks secara otomatis.
+Eksperimen ini menunjukkan bahwa pendekatan Deep Learning efektif dalam
+menghasilkan ringkasan teks berita secara otomatis.
