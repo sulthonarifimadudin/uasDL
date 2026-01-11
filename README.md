@@ -27,3 +27,44 @@ Tujuan utama dari repository ini adalah:
 Setiap eksperimen berada dalam satu folder terpisah dan memiliki struktur
 minimum sebagai berikut:
 
+experiment_name/
+├── README.md
+├── notebooks/
+├── reports/
+└── requirements.txt
+
+---
+
+## 📌 Daftar Eksperimen
+
+### 1. GoEmotions
+Eksperimen klasifikasi emosi multi-label menggunakan dataset GoEmotions
+dengan pendekatan Deep Learning berbasis Transformer.
+
+### 2. AG News
+Eksperimen klasifikasi topik berita menggunakan dataset AG News
+dengan model Deep Learning untuk klasifikasi teks.
+
+---
+
+## 🛠️ Tools dan Library
+
+Eksperimen dalam repository ini menggunakan beberapa library utama, antara lain:
+- Python
+- PyTorch
+- HuggingFace Transformers
+- Scikit-Learn
+- NumPy dan Pandas
+
+---
+
+## 👤 Anggota Kelompok
+
+Nama : Abyan Rizki Arianto 
+NIM  : 1103220002
+
+Nama : Jihan Nur Mardatillah
+NIM  : 1103223129 
+
+Nama : Sulthon Arif Imadudin 
+NIM  : 1103223206
